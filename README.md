@@ -1,8 +1,8 @@
 # How to Run the Project
 
 ## 1. Install Node.js
-```bash
 Make sure Node.js is installed:
+```bash
 node -v
 npm -v
 ```
@@ -36,7 +36,7 @@ here is the result
 }
 ```
 
-## 6. Trigger Download using Client Id(Using Postman/Insomnia)
+## 6. Trigger Download using Client Id (Using Postman/Insomnia)
 ```bash
 METHOD: POST 
 URL: http://localhost:3000/download/:clientId 
