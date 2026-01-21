@@ -1,22 +1,31 @@
 # How to Run the Project
 
 ## 1. Install Node.js
+```bash
 Make sure Node.js is installed:
 node -v
 npm -v
+```
 
 ## 2. Install Dependencies
+```bash
 npm install express ws
+```
 
 ## 3. Start the Server
+```bash
 cd server
 node server.js
+```
 
 ## 4. Start the Client (Open a New Terminal)
+```bash
 cd client
 node client.js
+```
 
 ## 5. Get Connected Clients (Using Postman/Insomnia)
+```bash
 METHOD: GET
 URL: http://localhost:3000/clients 
 here is the result
@@ -25,8 +34,10 @@ here is the result
         "9ae3858f-15ff-4d50-9007-08a0e6776c48"
     ]
 }
+```
 
 ## 6. Trigger Download using Client Id(Using Postman/Insomnia)
+```bash
 METHOD: POST 
 URL: http://localhost:3000/download/:clientId 
 example
@@ -36,6 +47,7 @@ here is the result
 {
     "message": "Download triggered for client fe376684-3ca5-4e6b-863f-41c40106d14d"
 }
+```
 
 ## 7. Check Downloaded File
 The downloaded file will be saved in:
